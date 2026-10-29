@@ -163,12 +163,17 @@ the app sits in a phone frame (`app/phone_frame.dart`). Honors the OS
   (`docs/social_preview.png`, 1280×640). Clientele leftovers removed
   (unused formatters, `AppTopBar`, `recipeCount`, two durations).
 
+- Published: public repo github.com/gryllifish/mise, Pages at
+  https://gryllifish.github.io/mise/ (deployed by CI from `main`), ruleset
+  protecting `main`, Dependabot alerts, secret scanning with push
+  protection. README in a plain, factual tone: features, then "Notes" on
+  non-obvious decisions; no self-praise.
+
 ### Next steps, in order
-1. Check motion with `flutter run` on a phone (Hero flights, staggered
+1. Upload `docs/social_preview.png` in the repo's Settings → Social
+   preview (no API for it).
+2. Check motion with `flutter run` on a phone (Hero flights, staggered
    grid, page transitions, cook mode swipes, bottom bar hand-over).
-2. `git init`, private GitHub repo `gryllifish/mise`, enable Pages
-   (`build_type=workflow`), secret scanning, Dependabot alerts, ruleset
-   protecting `main`; upload the social preview; later make it public.
 3. Optional: GIFs for the README (simulator recordings), Spanish names
    for ingredients, categories and countries.
 
