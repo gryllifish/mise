@@ -1,0 +1,178 @@
+{
+  "@@locale": "en",
+  "appTitle": "Mise",
+  "retry": "Try again",
+  "back": "Back",
+  "close": "Close",
+  "errorLoadData": "We couldn't read this recipe data.",
+  "errorNotFound": "We couldn't find that recipe.",
+  "errorUnexpected": "Something went wrong. Please try again.",
+  "errorOffline": "You're offline. Check your connection and try again.",
+  "errorTimeout": "This is taking too long. Please try again.",
+  "errorServer": "The recipe service is having trouble. Try again soon.",
+  "navDiscover": "Discover",
+  "navSaved": "Saved",
+  "navPantry": "What I have",
+  "pantryTitle": "What's in your kitchen?",
+  "pantrySubtitle": "Add what you have and we'll suggest dishes that use it.",
+  "pantryAddHint": "Add an ingredient",
+  "pantryCatalogError": "We couldn't load the ingredient list.",
+  "pantryYours": "{count, plural, =1{Your pantry · 1} other{Your pantry · {count}}}",
+  "pantryClear": "Clear all",
+  "pantryCleared": "Pantry cleared.",
+  "removeIngredient": "Remove {name}",
+  "addIngredient": "Add {name}",
+  "pantryEmpty": "Start with two or three things you have at home.",
+  "pantrySuggestions": "Popular",
+  "pantryReady": "Ready to cook",
+  "pantryAlmost": "Almost there",
+  "pantryIdeas": "More ideas",
+  "pantryUses": "{count, plural, =1{Uses 1 of yours} other{Uses {count} of yours}}",
+  "pantryHaveAll": "You have everything",
+  "pantryMissing": "Missing: {names}",
+  "pantryNoMatches": "No recipes use these ingredients. Try adding another.",
+  "pantryBasics": "Salt, pepper, water and oil count as always at hand.",
+  "discoverEyebrow": "Mise en place",
+  "discoverTitle": "What are we\ncooking today?",
+  "searchHint": "Search recipes",
+  "clearSearch": "Clear search",
+  "todaysPick": "Today's pick",
+  "categories": "Categories",
+  "cuisines": "Countries",
+  "resultsFor": "Results for “{query}”",
+  "noResults": "No recipes match “{query}”.",
+  "recipeMeta": "{category} · {area}",
+  "openRecipe": "Open {name}",
+  "ingredients": "Ingredients",
+  "ingredientCount": "{count, plural, =1{1 ingredient} other{{count} ingredients}}",
+  "method": "Method",
+  "stepCount": "{count, plural, =1{1 step} other{{count} steps}}",
+  "startCooking": "Start cooking",
+  "stepOf": "Step {current} of {total}",
+  "nextStep": "Next step",
+  "previousStep": "Previous step",
+  "doneCooking": "Done. Enjoy!",
+  "stepNeeds": "You'll need",
+  "startTimer": "Start a {duration} timer",
+  "pauseTimer": "Pause timer",
+  "resumeTimer": "Resume timer",
+  "stopTimer": "Stop timer",
+  "timerDone": "Time's up!",
+  "finish": "Finish",
+  "save": "Save recipe",
+  "unsave": "Remove from saved",
+  "savedTitle": "Saved",
+  "savedSubtitle": "Kept on this device, ready even offline.",
+  "savedEmpty": "Recipes you save show up here, even without a connection.",
+  "savedEmptyAction": "Discover recipes",
+  "savedOffline": "Showing your saved copy while offline.",
+  "removedFromSaved": "Removed “{name}”.",
+  "undo": "Undo",
+  "removeSaved": "Remove",
+  "@resultsFor": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "@noResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "@recipeMeta": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "area": {
+        "type": "String"
+      }
+    }
+  },
+  "@openRecipe": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ingredientCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@stepCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@stepOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@removedFromSaved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@startTimer": {
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "10 min"
+      }
+    }
+  },
+  "@pantryYours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@removeIngredient": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@addIngredient": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@pantryUses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@pantryMissing": {
+    "placeholders": {
+      "names": {
+        "type": "String",
+        "example": "lemon, saffron"
+      }
+    }
+  }
+}

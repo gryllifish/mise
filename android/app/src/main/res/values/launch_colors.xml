@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Apart from colors.xml, which flutter_launcher_icons rewrites. -->
+<resources>
+    <color name="launch_background">#D9532B</color>
+</resources>
